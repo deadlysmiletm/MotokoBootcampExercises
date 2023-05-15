@@ -1,0 +1,32 @@
+{
+  "canisters": {
+    "calculator": {
+      "main": "src/Calculator/main.mo",
+      "type": "motoko"
+    },
+    "homework": {
+      "main": "src/Homework/main.mo",
+      "type": "motoko"
+    },
+    "studentWall": {
+      "main": "src/StudentWall/main.mo",
+      "type": "motoko"
+    },
+    "ledger": {
+      "main": "src/Ledger/main.mo",
+      "type": "motoko"
+    },
+    "verifier": {
+      "main": "src/Verify/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
